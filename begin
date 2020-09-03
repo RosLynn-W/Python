@@ -1,0 +1,6 @@
+import random
+s=""
+for i in range(10):
+   a=random.randint(65,90)
+   s+=chr(a)
+print(s)
