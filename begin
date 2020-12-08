@@ -1,4 +1,1 @@
-%matplotlib inline
-import matplotlib.pyplot as plt
-plt.bar(['Lewis', 'Ada', 'Julia'], [177, 160, 156])
-plt.show()
+print("Hello")
