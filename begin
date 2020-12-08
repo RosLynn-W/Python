@@ -1,6 +1,4 @@
-import random
-s=""
-for i in range(10):
-   a=random.randint(65,90)
-   s+=chr(a)
-print(s)
+%matplotlib inline
+import matplotlib.pyplot as plt
+plt.bar(['Lewis', 'Ada', 'Julia'], [177, 160, 156])
+plt.show()
